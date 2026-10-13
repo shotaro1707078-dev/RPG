@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
             GameManager::Instance().SetSeed(static_cast<unsigned>(std::atoi(argv[i + 1])));
     }
 
-    std::cout << "★★★ 無限の道と仲間たち ★★★\n";
+    std::cout << " 無限の道と仲間たち \n";
     GameManager::Instance().Run();
     return 0;
 }
